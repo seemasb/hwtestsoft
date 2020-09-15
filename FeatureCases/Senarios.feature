@@ -1,10 +1,9 @@
 Feature: CheckOut
 
-#Scenario: Checkout a banana
-#Given the price of a "banana" is 40
-#When I checkout 1 "banana"
-#And I checkout 1 "banana"
-#Then the total price should be 40
+Scenario: Checkout a banana
+Given the price of a "banana" is 40
+When I checkout 1 "banana"
+Then the total price should be 40
 
 Scenario: Two banans scanned separately
 Given the price of a "banana" is 40
